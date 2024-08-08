@@ -2,10 +2,14 @@
     <head></head>   
         <body>
             <script>
-             var a=10;
-             while(a<=10){
-                
-             }
+             var a=+prompt();
+             var c=0;
+             for(var i=a;i>0;){
+                var r=i%10;
+                if(r ==1 ){ c++; }
+                 }   
+                    i= parseInt(i/10);
+                    console.log(c);
             </script>
         </body>
 </html>
